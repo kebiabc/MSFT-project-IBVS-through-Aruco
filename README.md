@@ -1,5 +1,5 @@
 # MSFT-project-IBVS-through-Aruco
-MSFT project-IBVS through Aruco
+Author: Yanyin Yao
 
 Catkin_ws file structure of this workspace:
 
@@ -27,7 +27,14 @@ Catkin_ws file structure of this workspace:
 
 |----------arm_control
 
+# Objective:
+The aim of this VIBOT MSFT course project is to implement or simulate an eye-in-hand image-based visual servo control in Gazebo using a Doosan M0609 robotic arm manipulator with a camera mounted on its end effector. The visual features will be provided from 4-points in an Aruco tag.
 
+# Preparation before simulation
+## realsense package installation
+According to the system environment, install realsense SDK and realsense_ros.
+
+## Add Aruco marker in gazebo environment
 
 ![image](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/e484f166-97ed-4e7d-882b-d5d8e13ef36a)
 ![屏幕截图 2024-01-08 174857](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/304acd06-4cc6-4221-854c-28b124c41a19)
