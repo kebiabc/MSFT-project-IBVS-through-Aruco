@@ -1,7 +1,8 @@
 # MSFT-project-IBVS-through-Aruco
 MSFT project-IBVS through Aruco
 
-Catkin_ws file structure of this workspace
+Catkin_ws file structure of this workspace:
+
 |--catkin_ws
 
 |----src
