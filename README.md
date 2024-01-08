@@ -34,8 +34,11 @@ The aim of this VIBOT MSFT course project is to implement or simulate an eye-in-
 ## realsense package installation
 According to the system environment, install realsense SDK and realsense_ros.
 
+![屏幕截图 2024-01-08 235240](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/4a668f3f-2cdd-4719-bf68-fdbc0d2ab959)
+
 ## Add Aruco marker in gazebo environment
 
+![屏幕截图 2024-01-08 200132](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/853b68a1-f37f-4481-867c-72ed0b6d7b4b)
 ![image](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/e484f166-97ed-4e7d-882b-d5d8e13ef36a)
 ![屏幕截图 2024-01-08 174857](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/304acd06-4cc6-4221-854c-28b124c41a19)
 ![屏幕截图 2024-01-08 150957](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/f6af6c6c-6e21-4f40-8ec3-fc0bcc7d29a2)
