@@ -1,5 +1,5 @@
 # MSFT-project-IBVS-through-Aruco
-Author: Yanyin Yao
+Author: Yanyin Yao, Kunyang Liang
 
 Catkin_ws file structure of this workspace:
 
