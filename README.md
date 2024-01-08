@@ -37,6 +37,9 @@ According to the system environment, install realsense SDK and realsense_ros.
 ![屏幕截图 2024-01-08 235240](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/4a668f3f-2cdd-4719-bf68-fdbc0d2ab959)
 
 ## Add Aruco marker in gazebo environment
+```bash
+sudo cp tag_36.zip /usr/share/gazebo-11/models
+```
 
 ![屏幕截图 2024-01-08 200132](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/853b68a1-f37f-4481-867c-72ed0b6d7b4b)
 ![image](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/e484f166-97ed-4e7d-882b-d5d8e13ef36a)
