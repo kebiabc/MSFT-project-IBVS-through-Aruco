@@ -41,11 +41,29 @@ According to the system environment, install realsense SDK and realsense_ros.
 sudo cp tag_36.zip /usr/share/gazebo-11/models
 ```
 
-![屏幕截图 2024-01-08 200132](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/853b68a1-f37f-4481-867c-72ed0b6d7b4b)
-![image](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/e484f166-97ed-4e7d-882b-d5d8e13ef36a)
-![屏幕截图 2024-01-08 174857](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/304acd06-4cc6-4221-854c-28b124c41a19)
-![屏幕截图 2024-01-08 150957](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/f6af6c6c-6e21-4f40-8ec3-fc0bcc7d29a2)
-![屏幕截图 2024-01-07 195401](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/a28ae5e8-49c0-405c-86fd-2d6d6072b262)
-![屏幕截图 2024-01-07 195159](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/0c28253c-5c16-407d-a148-9089f9603583)
-![屏幕截图 2024-01-07 194514](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/345a84a4-537e-4ae7-85a4-83f5d7d1ac42)
-![GIF 2024-1-8 15-11-28](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/b212dc86-0fc7-4a10-bb93-06e729a40e3e)
+# Gazebo + Moveit + doosan robotic arm + gripper simulation
+In this part, we create the robot description using XACRO files and then loaded in a Gazebo simulation. The robot description is composed of a robot arm Doosan m0609, a robot gripper OnRobot RG2 and a color camera. 
+![屏幕截图 2024-01-07 195401](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/89122b5b-170f-4b4a-9f6a-cce484beb552)
+
+![屏幕截图 2024-01-08 200132](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/2038900f-b044-491d-88d9-3229edc7703e)
+
+## Moveit
+we use the third-party software MoveIt to define robot arm motion trajectories.
+
+![屏幕截图 2024-01-07 194514](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/39de1a45-7ed7-4593-9a97-04d1eee2a956)
+
+![屏幕截图 2024-01-07 195159](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/9ce9ff1f-b7de-4d71-aedd-0d903ed7d51c)
+
+```bash
+
+roslaunch m0609_moveit_config dsr_moveit_gazebo.launch
+
+```
+![GIF 2024-1-8 15-11-28](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/97932e61-bc4c-4355-a237-45ad8048dccf)
+
+# Testing the aruco_ros package using Realsense
+![屏幕截图 2024-01-08 174857](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/37e95521-f9a5-4e11-bc63-9fef0ec92cbf)
+
+![屏幕截图 2024-01-08 150957](https://github.com/kebiabc/MSFT-project-IBVS-through-Aruco/assets/33951067/a36cb63d-1d01-44e1-9285-a2c74f85f07a)
+
+# IBVS-through-Aruco
